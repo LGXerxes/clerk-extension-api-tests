@@ -1,0 +1,35 @@
+_id: req_d75679457e4a41b9aa6a5673f3977349
+type: Request
+parentId: fld_2eaf7ab0dec4473b90b5e7aacac071f5
+modified: 1673308453764
+created: 1673308453764
+url: https://api.clerk.io/v2/log/product
+name: product
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_82fa29da3e564026bbaac16f8e03c31d
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_45ebaa9473b94b2c81eb049249f2cae9
+    name: product
+    value: "261"
+    description: ID or Products
+    type: text
+    multiline: false
+  - id: pair_b991fc1c3165498586c44ea7bc4011ab
+    name: visitor
+    value: auto
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1668618702371.5781
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: env_0fff07818688424192f9ab598a2f16a5
+type: Environment
+parentId: wrk_b67bd8f7333746659d2150a8d3257839
+modified: 1673308453679
+created: 1673308453679
+name: Base Environment
+data:
+  public_key: LT6bUaIj394JHJNW8OXg0yujb6j4fHnl
+  private_key: eLPRqInpybjVM2HjCO32f0wdVQSs3xIXk8Wk5KlV7q
+  domain: test
+  limit: 100
+  page: 0
+  store: 1
+dataPropertyOrder:
+  "&":
+    - public_key
+    - private_key
+    - domain
+    - limit
+    - page
+    - store
+color: null
+isPrivate: false
+metaSortKey: 1663928280907

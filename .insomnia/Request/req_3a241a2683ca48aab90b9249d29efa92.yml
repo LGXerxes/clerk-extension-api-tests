@@ -1,0 +1,31 @@
+_id: req_3a241a2683ca48aab90b9249d29efa92
+type: Request
+parentId: fld_48bb51dd9ab54e70aa74c3b967f07b4f
+modified: 1673308453689
+created: 1673308453689
+url: "{{ _.domain }}{{ _.route }}order"
+name: /order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"key": "{{ _.public_key }}",
+    "private_key": "{{ _.private_key }}"}
+parameters:
+  - name: page
+    value: "{{ _.page }}"
+  - name: limit
+    value: "{{ _.limit }}"
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668167385780.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

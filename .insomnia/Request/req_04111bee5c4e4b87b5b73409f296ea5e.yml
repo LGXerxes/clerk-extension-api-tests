@@ -1,0 +1,84 @@
+_id: req_04111bee5c4e4b87b5b73409f296ea5e
+type: Request
+parentId: fld_3e73bdb2f674490d8f32594208285e03
+modified: 1673308453759
+created: 1673308453759
+url: https://api.clerk.io/v2/orders
+name: pages
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "key": "{{ _.public_key }}",
+        "private_key": "{{ _.private_key }}",
+        "orders": [
+            {
+                "id": 123458,
+                "customer": 789,
+                "email": "vader@the-death-star.com",
+                "products": [
+                    {
+                        "id": 456,
+                        "quantity": 1,
+                        "price": 200.00
+                    },
+                    {
+                        "id": 789,
+                        "quantity": 2,
+                        "price": 120.00
+                    }
+                ],
+                "time": 1389871120
+            },
+            {
+                "id": 123456,
+                "customer": 456,
+                "email": "obi.wan@kenobi.me",
+                "products": [
+                    {
+                        "id": 456,
+                        "quantity": 1,
+                        "price": 200.00
+                    },
+                    {
+                        "id": 789,
+                        "quantity": 2,
+                        "price": 120.00
+                    },
+                    {
+                        "id": 123,
+                        "quantity": 2,
+                        "price": 60.00
+                    }
+                ],
+                "time": 1389870977
+            },
+            {
+                "id": 123457,
+                "customer": "",
+                "products": [
+                    {
+                        "id": 789,
+                        "quantity": 2,
+                        "price": 120.00
+                    }
+                ],
+                "time": 1389871090
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668614450437.5156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

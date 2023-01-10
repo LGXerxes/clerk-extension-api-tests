@@ -1,0 +1,53 @@
+_id: req_8ac5340775c649a8a56193029253ccbc
+type: Request
+parentId: fld_fd11dbf8e0984808bf876dfca1db8a1b
+modified: 1673308453756
+created: 1673308453756
+url: https://api.clerk.io/v2/customers
+name: customers
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "key": "{{ _.public_key }}",
+        "private_key": "{{ _.private_key }}",
+        "customers": [
+            {
+                "id": 135,
+                "name": "Luke Skywalker",
+                "email": "luke@rebels.org",
+                "subscribed": true,
+                "gender": "male",
+                "zip": "1134",
+                "is_b2b": "false"
+            },
+            {
+                "id": 165,
+                "name": "Darth Vader",
+                "email": "vader@empire.com",
+                "subscribed": false,
+                "gender": "male",
+                "age": 45,
+                "interests": [
+                    "lightsaber",
+                    "force"
+                ],
+                "is_b2b": true
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1668616576359.039
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

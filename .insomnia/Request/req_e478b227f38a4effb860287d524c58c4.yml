@@ -1,0 +1,35 @@
+_id: req_e478b227f38a4effb860287d524c58c4
+type: Request
+parentId: fld_fd11dbf8e0984808bf876dfca1db8a1b
+modified: 1673308453755
+created: 1673308453755
+url: https://api.clerk.io/v2/customers
+name: customers
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_82fa29da3e564026bbaac16f8e03c31d
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_fba8c4a47a464f1b8f2c36e58de6081a
+    name: private_key
+    value: "{{ _.private_key }}"
+    description: ""
+  - id: pair_45ebaa9473b94b2c81eb049249f2cae9
+    name: customers
+    value: '["luke@rebels.org"]'
+    description: Array of emails
+    type: text
+    multiline: false
+headers: []
+authentication: {}
+metaSortKey: -1668618702380.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

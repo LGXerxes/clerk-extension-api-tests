@@ -1,0 +1,13 @@
+_id: fld_48bb51dd9ab54e70aa74c3b967f07b4f
+type: RequestGroup
+parentId: wrk_b67bd8f7333746659d2150a8d3257839
+modified: 1673308453683
+created: 1673308453683
+name: WooCommerce
+description: ""
+environment:
+  route: /wp-json/clerk/
+environmentPropertyOrder:
+  "&":
+    - route
+metaSortKey: -1668703742229

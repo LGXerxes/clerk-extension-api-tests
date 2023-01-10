@@ -1,0 +1,43 @@
+_id: req_8e5ee9d0605440c5b3d7d35cdf5a4882
+type: Request
+parentId: fld_ba6fa12d5fef48dd823e4d7a83c300dc
+modified: 1673308453762
+created: 1673308453762
+url: https://api.clerk.io/v2/subscriber/unsubscribe
+name: unsubscribe
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_82fa29da3e564026bbaac16f8e03c31d
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_fba8c4a47a464f1b8f2c36e58de6081a
+    name: email
+    value: luke@rebels.org
+    description: ""
+  - id: pair_45ebaa9473b94b2c81eb049249f2cae9
+    name: list_id
+    value: ""
+    description: ""
+    type: text
+    multiline: false
+  - id: pair_b991fc1c3165498586c44ea7bc4011ab
+    name: redirect
+    value: "false"
+    description: ""
+  - id: pair_312f7e2c42a54a47b2e411479851e87d
+    name: redirect_url
+    value: my.clerk.io
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1668618702371.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

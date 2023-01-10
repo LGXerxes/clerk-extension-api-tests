@@ -1,0 +1,16 @@
+_id: wrk_b67bd8f7333746659d2150a8d3257839
+type: Workspace
+parentId: null
+modified: 1673308453679
+created: 1673308453679
+name: Extension Tests 2
+description: |-
+  API Endpoint Tests
+
+  Platforms:
+  	WooCommerce
+  	PrestaShop
+  	Magento 1
+  	Magento 2
+  	DanDomain Old
+scope: design

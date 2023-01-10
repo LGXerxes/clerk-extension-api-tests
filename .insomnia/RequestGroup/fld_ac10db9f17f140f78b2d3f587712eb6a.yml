@@ -1,0 +1,13 @@
+_id: fld_ac10db9f17f140f78b2d3f587712eb6a
+type: RequestGroup
+parentId: wrk_b67bd8f7333746659d2150a8d3257839
+modified: 1673308453736
+created: 1673308453736
+name: PrestaShop
+description: ""
+environment:
+  route: /module/clerk/
+environmentPropertyOrder:
+  "&":
+    - route
+metaSortKey: -1668703742204

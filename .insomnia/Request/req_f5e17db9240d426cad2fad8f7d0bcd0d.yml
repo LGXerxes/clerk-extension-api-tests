@@ -1,0 +1,44 @@
+_id: req_f5e17db9240d426cad2fad8f7d0bcd0d
+type: Request
+parentId: fld_13ba0ff7e5424932bbe1516cce4f080b
+modified: 1673308453773
+created: 1673308453773
+url: https://api.clerk.io/v2/recommendations/new
+name: new
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{{_.public_key}}"
+    id: pair_0e94b4b5bebd4238bb00b71fd27a02b8
+  - name: limit
+    value: "10"
+    id: pair_7b1a955649524a97a5247e5c06c23baf
+  - name: visitor
+    value: auto
+    id: pair_0be808ad7b1044d9be762d8f7bed3a2e
+  - name: labels
+    value: '["live-search" ]'
+    id: pair_0bdad9afd5bc4ec5b84193a978154e03
+  - name: exclude
+    value: '["261"]'
+    id: pair_d294846cde304659a647675d80b69e95
+  - name: attributes
+    value: '["brand"]'
+    id: pair_72b8ccc0914a49f18f2523d9edaa37e0
+  - id: pair_a52ace708c194fa598cbd115917de95f
+    name: callback
+    value: test
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1673304798300.4062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
