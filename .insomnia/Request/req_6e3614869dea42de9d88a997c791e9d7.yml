@@ -1,0 +1,54 @@
+_id: req_6e3614869dea42de9d88a997c791e9d7
+type: Request
+parentId: fld_4bf57efb1fff4028b2ea781037063a0c
+modified: 1673777843759
+created: 1673777152250
+url: http://api.clerk.io/v2/customized_search
+name: customized_search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_3a709cbfdf5f423b8313103d523cb4ed
+    name: key
+    value: "{{ _.public_key }}"
+    description: ""
+  - id: pair_1bbe246d81d147b4bf9a61d358dd1d6e
+    name: private_key
+    value: "{{ _.private_key }}"
+    description: ""
+  - id: pair_178ae49d54944e5b831658a507bf4045
+    name: customized_searches
+    value: |
+      {
+          "query": "pants",
+          "products": {
+              "pin" : [123,456],
+              "hide" : [555,222]
+          },
+          "categories": {
+              "pin" : [12,67],
+              "hide" : [555]
+          },
+          "suggestions": {
+              "pin" : ["trousers","skitrousers"],
+              "hide" : ["trouts"]
+          },
+          "pages": {
+              "pin" : [999,111],
+              "hide" : [543,234,788]
+          }
+      }
+    description: ""
+    type: text
+    multiline: true
+headers: []
+authentication: {}
+metaSortKey: -1673777141952
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
